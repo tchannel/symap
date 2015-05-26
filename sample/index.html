@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>SYMAP</title>
+
+
+		<style type="text/css">
+
+            body {
+                background-color: #343434;
+            }
+
+            svg .bg {
+                pointer-events: all;
+            }
+
+            svg .intBoundary {
+                stroke: #ffffff;
+                stroke-width: 0.5px;
+                stroke-dasharray: 4,4;
+                fill:none;
+                opacity: 1;
+            }
+
+            svg .extBoundary {
+                stroke: #ffffff;
+                stroke-width: 1px;
+/*                stroke-dasharray: 2,2;*/
+                stroke-linejoin: round;
+                fill:none;
+                opacity: 1;
+            }
+
+            svg .symapFill {
+                fill: #ffffff;
+                opacity: 1;
+            }
+
+            svg text {
+                font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+                font-weight: normal;
+                text-anchor: middle;
+            }
+		</style>
+	</head>
+	<body>
+
+        <div id="map"></div>
+
+        <script src="symap.js"></script>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "symap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify symap-src.js -o sample/symap.js",
+    "serve": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tchannel/symap"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tchannel/symap/issues"
+  },
+  "homepage": "https://github.com/tchannel/symap",
+  "dependencies": {
+    "d3": "^3.5.5",
+    "simple-statistics": "^0.9.2",
+    "textures": "^1.0.3",
+    "topojson": "^1.6.19",
+    "turf": "^2.0.2"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.1",
+    "express": "^4.12.4"
+  }
+}
