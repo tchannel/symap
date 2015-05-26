@@ -2,6 +2,10 @@
 
 See [wikipedia](http://en.wikipedia.org/wiki/Inverse_distance_weighting) for more about IDW
 
+Also check the `videoText.md` file in this repository for implementation details.
+
+All credit for the project goes to the original project owner [here](https://github.com/designedspace/symap)
+
 # Visualization
 
 ```
